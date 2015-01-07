@@ -201,54 +201,6 @@
 <pin name="37" x="0" y="-45.72" length="middle"/>
 <pin name="39" x="0" y="-48.26" length="middle"/>
 </symbol>
-<symbol name="RASPBERRY_PI+">
-<wire x1="5.08" y1="2.54" x2="38.1" y2="2.54" width="0.254" layer="94"/>
-<wire x1="38.1" y1="2.54" x2="38.1" y2="-50.8" width="0.254" layer="94"/>
-<wire x1="38.1" y1="-50.8" x2="5.08" y2="-50.8" width="0.254" layer="94"/>
-<wire x1="5.08" y1="-50.8" x2="5.08" y2="2.54" width="0.254" layer="94"/>
-<text x="5.08" y="3.81" size="1.27" layer="95">&gt;NAME</text>
-<text x="5.08" y="-53.34" size="1.27" layer="96">&gt;VALUE</text>
-<pin name="3.3V@1" x="0" y="0" length="middle"/>
-<pin name="5V@1" x="43.18" y="0" length="middle" rot="R180"/>
-<pin name="GPIO2" x="0" y="-2.54" length="middle"/>
-<pin name="5V@2" x="43.18" y="-2.54" length="middle" rot="R180"/>
-<pin name="GPIO3" x="0" y="-5.08" length="middle"/>
-<pin name="GND@4" x="43.18" y="-5.08" length="middle" rot="R180"/>
-<pin name="GPIO4" x="0" y="-7.62" length="middle"/>
-<pin name="GPIO14" x="43.18" y="-7.62" length="middle" rot="R180"/>
-<pin name="GND@1" x="0" y="-10.16" length="middle"/>
-<pin name="GPIO15" x="43.18" y="-10.16" length="middle" rot="R180"/>
-<pin name="GPIO18" x="43.18" y="-12.7" length="middle" rot="R180"/>
-<pin name="GND@5" x="43.18" y="-15.24" length="middle" rot="R180"/>
-<pin name="GPIO23" x="43.18" y="-17.78" length="middle" rot="R180"/>
-<pin name="GPIO24" x="43.18" y="-20.32" length="middle" rot="R180"/>
-<pin name="GND@6" x="43.18" y="-22.86" length="middle" rot="R180"/>
-<pin name="GPIO25" x="43.18" y="-25.4" length="middle" rot="R180"/>
-<pin name="GPIO8" x="43.18" y="-27.94" length="middle" rot="R180"/>
-<pin name="GPIO7" x="43.18" y="-30.48" length="middle" rot="R180"/>
-<pin name="ID_SC" x="43.18" y="-33.02" length="middle" rot="R180"/>
-<pin name="GPIO17" x="0" y="-12.7" length="middle"/>
-<pin name="GPIO27" x="0" y="-15.24" length="middle"/>
-<pin name="GPIO22" x="0" y="-17.78" length="middle"/>
-<pin name="3.3V@2" x="0" y="-20.32" length="middle"/>
-<pin name="GPIO10" x="0" y="-22.86" length="middle"/>
-<pin name="GPIO9" x="0" y="-25.4" length="middle"/>
-<pin name="GPIO11" x="0" y="-27.94" length="middle"/>
-<pin name="GND@2" x="0" y="-30.48" length="middle"/>
-<pin name="ID_SD" x="0" y="-33.02" length="middle"/>
-<pin name="GPIO5" x="0" y="-35.56" length="middle"/>
-<pin name="GND@7" x="43.18" y="-35.56" length="middle" rot="R180"/>
-<pin name="GPIO12" x="43.18" y="-38.1" length="middle" rot="R180"/>
-<pin name="GND@8" x="43.18" y="-40.64" length="middle" rot="R180"/>
-<pin name="GPIO16" x="43.18" y="-43.18" length="middle" rot="R180"/>
-<pin name="GPIO20" x="43.18" y="-45.72" length="middle" rot="R180"/>
-<pin name="GPIO21" x="43.18" y="-48.26" length="middle" rot="R180"/>
-<pin name="GPIO6" x="0" y="-38.1" length="middle"/>
-<pin name="GPIO13" x="0" y="-40.64" length="middle"/>
-<pin name="GPIO19" x="0" y="-43.18" length="middle"/>
-<pin name="GPIO26" x="0" y="-45.72" length="middle"/>
-<pin name="GND@3" x="0" y="-48.26" length="middle"/>
-</symbol>
 </symbols>
 <devicesets>
 <deviceset name="HLE-120-02-XXX-DV-BE" prefix="J" uservalue="yes">
@@ -300,63 +252,6 @@
 <connect gate="G$1" pin="8" pad="8"/>
 <connect gate="G$1" pin="9" pad="9"/>
 </connects>
-<technologies>
-<technology name=""/>
-</technologies>
-</device>
-</devices>
-</deviceset>
-<deviceset name="RASPBERRY_PI+">
-<gates>
-<gate name="G$1" symbol="RASPBERRY_PI+" x="0" y="0"/>
-</gates>
-<devices>
-<device name="" package="HLE-120-02">
-<connects>
-<connect gate="G$1" pin="3.3V@1" pad="1"/>
-<connect gate="G$1" pin="3.3V@2" pad="17"/>
-<connect gate="G$1" pin="5V@1" pad="2"/>
-<connect gate="G$1" pin="5V@2" pad="4"/>
-<connect gate="G$1" pin="GND@1" pad="9"/>
-<connect gate="G$1" pin="GND@2" pad="25"/>
-<connect gate="G$1" pin="GND@3" pad="39"/>
-<connect gate="G$1" pin="GND@4" pad="6"/>
-<connect gate="G$1" pin="GND@5" pad="14"/>
-<connect gate="G$1" pin="GND@6" pad="20"/>
-<connect gate="G$1" pin="GND@7" pad="30"/>
-<connect gate="G$1" pin="GND@8" pad="34"/>
-<connect gate="G$1" pin="GPIO10" pad="19"/>
-<connect gate="G$1" pin="GPIO11" pad="23"/>
-<connect gate="G$1" pin="GPIO12" pad="32"/>
-<connect gate="G$1" pin="GPIO13" pad="33"/>
-<connect gate="G$1" pin="GPIO14" pad="8"/>
-<connect gate="G$1" pin="GPIO15" pad="10"/>
-<connect gate="G$1" pin="GPIO16" pad="36"/>
-<connect gate="G$1" pin="GPIO17" pad="11"/>
-<connect gate="G$1" pin="GPIO18" pad="12"/>
-<connect gate="G$1" pin="GPIO19" pad="35"/>
-<connect gate="G$1" pin="GPIO2" pad="3"/>
-<connect gate="G$1" pin="GPIO20" pad="38"/>
-<connect gate="G$1" pin="GPIO21" pad="40"/>
-<connect gate="G$1" pin="GPIO22" pad="15"/>
-<connect gate="G$1" pin="GPIO23" pad="16"/>
-<connect gate="G$1" pin="GPIO24" pad="18"/>
-<connect gate="G$1" pin="GPIO25" pad="22"/>
-<connect gate="G$1" pin="GPIO26" pad="37"/>
-<connect gate="G$1" pin="GPIO27" pad="13"/>
-<connect gate="G$1" pin="GPIO3" pad="5"/>
-<connect gate="G$1" pin="GPIO4" pad="7"/>
-<connect gate="G$1" pin="GPIO5" pad="29"/>
-<connect gate="G$1" pin="GPIO6" pad="31"/>
-<connect gate="G$1" pin="GPIO7" pad="26"/>
-<connect gate="G$1" pin="GPIO8" pad="24"/>
-<connect gate="G$1" pin="GPIO9" pad="21"/>
-<connect gate="G$1" pin="ID_SC" pad="28"/>
-<connect gate="G$1" pin="ID_SD" pad="27"/>
-</connects>
-<technologies>
-<technology name=""/>
-</technologies>
 </device>
 </devices>
 </deviceset>
